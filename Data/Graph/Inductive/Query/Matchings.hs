@@ -24,7 +24,7 @@ Our implementation of Edmond's blossom algorithm is an adaptation of the Java im
 <https://github.com/jgrapht/jgrapht/blob/master/jgrapht-core/src/main/java/org/jgrapht/alg/EdmondsBlossomShrinking.java>
 -}
 
-module Data.Graph.Inductive.Query.MaximumMatching 
+module Data.Graph.Inductive.Query.Matchings
     (isMatching, isMaximalMatching, isMaximumMatching, maximalMatchings, maximumMatching) where
 
 import Control.Monad
